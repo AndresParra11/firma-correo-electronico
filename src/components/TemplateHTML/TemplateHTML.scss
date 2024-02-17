@@ -1,0 +1,286 @@
+a:-webkit-any-link {
+  text-decoration: none !important;
+  text-decoration-color: white !important;
+}
+
+.template {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 530px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white !important;
+}
+
+.space {
+  margin: 20px 0px;
+}
+
+.article {
+  font-family: "Titillium web", Arial, sans-serif;
+  color: #263f42;
+  max-width: 530px;
+  display: flex;
+  flex-direction: column;
+
+  &__separator {
+    background-color: #263f42;
+    width: 100%;
+    height: 11px;
+    display: block;
+    margin: 0px;
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__separator2 {
+    width: 100%;
+    height: 2px;
+    display: block;
+    margin: 0px;
+    img {
+      width: 100%;
+      object-fit: cover;
+      height: 2px;
+    }
+  }
+
+  &__footer {
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    img {
+      width: 100%;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 25px;
+    }
+  }
+}
+
+.info {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.personalInfo {
+  background-color: white;
+  &__logo {
+    width: 200px;
+    margin: 0px;
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  &__name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0px 0px 0px;
+    color: #263f42;
+    font-family: "Titillium web", Arial, sans-serif;
+    font-weight: 600;
+  }
+  &__job {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 0px 20px 0px;
+    color: #263f42;
+  }
+}
+
+.companyInfo {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  gap: 2px;
+  &__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    gap: 5px;
+    height: 25px;
+    background-color: white;
+    figure {
+      margin: 0px;
+      width: 25px;
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+      }
+    }
+    p {
+      display: flex;
+      line-height: 25px;
+      align-items: center;
+      margin: 0px;
+      font-size: 15px;
+      font-weight: 400;
+      color: #090909;
+      text-decoration: none !important;
+      font-family: Arial, sans-serif;
+    }
+    a {
+      text-decoration: none !important;
+      line-height: 25px !important;
+      text-decoration-color: white !important;
+    }
+    &--linkCompany {
+      color: #263f42 !important;
+      font-weight: bold !important;
+      font-family: Arial, sans-serif !important;
+      font-size: 16px !important;
+    }
+  }
+  &__number {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none !important;
+    font-family: Arial, sans-serif;
+    color: #090909;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+  &__info {
+    width: 58%;
+  }
+  &__logo {
+    width: 42%;
+    margin: 0px;
+  }
+  &__figure {
+    width: 70%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &--instagram {
+      height: 70px;
+      figure {
+        width: 100px;
+        height: 63px;
+        margin-top: 10px;
+        img {
+          width: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+    &--facebook {
+      height: 70px;
+      figure {
+        width: 90px;
+        height: 61px;
+        margin-top: 10px;
+        img {
+          width: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+    &--linkedin {
+      height: 70px;
+      figure {
+        width: 80px;
+        height: 62px;
+        margin-top: 10px;
+        img {
+          width: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+    a {
+      height: 35px;
+    }
+  }
+
+  &__space {
+    width: 150px;
+  }
+}
+
+.witheSpace {
+  width: 30px;
+  height: 15px;
+  margin: 20px 20px;
+  background-color: white;
+}
+
+.witheSpace2 {
+  width: 15px;
+  height: 15px;
+  margin: 0px;
+  background-color: white;
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.witheSpace3 {
+  width: 15px;
+  height: 15px;
+  margin: 0px;
+  background-color: white;
+}
+
+.legal {
+  width: 100%;
+  text-align: justify;
+  margin: 0px;
+  font-size: 8px;
+  font-family: Arial, sans-serif;
+  opacity: 0.7;
+
+  &__title {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 20px 0px 0px 0px;
+    color: #263f42;
+  }
+}
+
+.witheSpaceIcons {
+  width: 4px;
+  height: 5px;
+  background-color: white;
+}
+
+.witheSpaceIcons2 {
+  width: 25px;
+  height: 4px;
+  background-color: white;
+}
