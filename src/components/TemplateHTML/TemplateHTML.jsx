@@ -37,7 +37,7 @@ const TemplateHTML = ({ infoHTML }) => {
       <article className="article">
         <figure className="article__separator">
           <img
-            src="https://res.cloudinary.com/dlkvt6uph/image/upload/v1707168479/Firma%20digital%20Alarmar/barra_vk4oag.jpg"
+            src="https://res.cloudinary.com/dlkvt6uph/image/upload/v1709157984/Firma%20digital%20Alarmar/barraM_q2wlyd.jpg"
             alt="barra-separadora"
           />
         </figure>
@@ -55,7 +55,7 @@ const TemplateHTML = ({ infoHTML }) => {
               <section className="personalInfo">
                 <figure className="personalInfo__logo">
                   <img
-                    src="https://res.cloudinary.com/dlkvt6uph/image/upload/v1708034764/Proyectos/arista_c0xw3q.jpg"
+                    src="https://res.cloudinary.com/dlkvt6uph/image/upload/v1709157501/Firma%20digital%20Alarmar/Logo_ARISTA_MORADO-01_grxcou.png"
                     alt="logo"
                   />
                 </figure>
@@ -132,7 +132,7 @@ const TemplateHTML = ({ infoHTML }) => {
           <div className="container__logo">
             <figure className="container__figure">
               <img
-                src="https://res.cloudinary.com/dlkvt6uph/image/upload/v1708035914/Proyectos/arista_yhi7jf.webp"
+                src="https://res.cloudinary.com/dlkvt6uph/image/upload/v1709157500/Firma%20digital%20Alarmar/Icono_Arista-03_oa7dxn.png"
                 alt="arista"
               />
             </figure>
@@ -140,7 +140,7 @@ const TemplateHTML = ({ infoHTML }) => {
         </div>
         <figure className="article__separator2">
           <img
-            src="https://res.cloudinary.com/dlkvt6uph/image/upload/v1707168479/Firma%20digital%20Alarmar/barra_vk4oag.jpg"
+            src="https://res.cloudinary.com/dlkvt6uph/image/upload/v1709157984/Firma%20digital%20Alarmar/barraM_q2wlyd.jpg"
             alt="barra-separadora"
           />
         </figure>
@@ -175,7 +175,7 @@ const TemplateHTML = ({ infoHTML }) => {
       </article>
       <figure className="article__separator">
         <img
-          src="https://res.cloudinary.com/dlkvt6uph/image/upload/v1707168479/Firma%20digital%20Alarmar/barra_vk4oag.jpg"
+          src="https://res.cloudinary.com/dlkvt6uph/image/upload/v1709157984/Firma%20digital%20Alarmar/barraM_q2wlyd.jpg"
           alt="barra-separadora"
         />
       </figure>

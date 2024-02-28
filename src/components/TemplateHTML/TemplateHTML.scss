@@ -20,13 +20,13 @@ a:-webkit-any-link {
 
 .article {
   font-family: "Titillium web", Arial, sans-serif;
-  color: #263f42;
+  color: #2a1666;
   max-width: 530px;
   display: flex;
   flex-direction: column;
 
   &__separator {
-    background-color: #263f42;
+    background-color: #2a1666;
     width: 100%;
     height: 11px;
     display: block;
@@ -83,7 +83,7 @@ a:-webkit-any-link {
     font-size: 18px;
     font-weight: bold;
     margin: 20px 0px 0px 0px;
-    color: #263f42;
+    color: #2a1666;
     font-family: "Titillium web", Arial, sans-serif;
     font-weight: 600;
   }
@@ -91,7 +91,7 @@ a:-webkit-any-link {
     font-size: 16px;
     font-weight: 400;
     margin: 0px 0px 20px 0px;
-    color: #263f42;
+    color: #2a1666;
   }
 }
 
@@ -135,7 +135,7 @@ a:-webkit-any-link {
       text-decoration-color: white !important;
     }
     &--linkCompany {
-      color: #263f42 !important;
+      color: #2a1666 !important;
       font-weight: bold !important;
       font-family: Arial, sans-serif !important;
       font-size: 16px !important;
@@ -269,7 +269,7 @@ a:-webkit-any-link {
     font-size: 12px;
     font-weight: bold;
     margin: 20px 0px 0px 0px;
-    color: #263f42;
+    color: #2a1666;
   }
 }
 
