@@ -6,29 +6,29 @@ a:-webkit-any-link {
 .template {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.625rem; /* 10px / 16px = 0.625rem */
   width: 100%;
-  max-width: 530px;
-  margin: 40px auto;
-  padding: 20px;
+  max-width: 33.125rem; /* 530px / 16px = 33.125rem */
+  margin: 2.5rem auto; /* 40px / 16px = 2.5rem */
+  padding: 1.25rem; /* 20px / 16px = 1.25rem */
   background-color: white !important;
 }
 
 .space {
-  margin: 20px 0px;
+  margin: 1.25rem 0px; /* 20px / 16px = 1.25rem */
 }
 
 .article {
   font-family: "Titillium web", Arial, sans-serif;
   color: #2a1666;
-  max-width: 530px;
+  max-width: 33.125rem; /* 530px / 16px = 33.125rem */
   display: flex;
   flex-direction: column;
 
   &__separator {
     background-color: #2a1666;
     width: 100%;
-    height: 11px;
+    height: 0.6875rem; /* 11px / 16px = 0.6875rem */
     display: block;
     margin: 0px;
     img {
@@ -39,25 +39,25 @@ a:-webkit-any-link {
 
   &__separator2 {
     width: 100%;
-    height: 2px;
+    height: 0.125rem; /* 2px / 16px = 0.125rem */
     display: block;
     margin: 0px;
     img {
       width: 100%;
       object-fit: cover;
-      height: 2px;
+      height: 0.125rem; /* 2px / 16px = 0.125rem */
     }
   }
 
   &__footer {
     width: 100%;
-    height: 50px;
+    height: 3.125rem; /* 50px / 16px = 3.125rem */
     margin: 0px;
     img {
       width: 100%;
-      height: 50px;
+      height: 3.125rem; /* 50px / 16px = 3.125rem */
       object-fit: cover;
-      border-radius: 25px;
+      border-radius: 1.5625rem; /* 25px / 16px = 1.5625rem */
     }
   }
 }
@@ -72,7 +72,7 @@ a:-webkit-any-link {
 .personalInfo {
   background-color: white;
   &__logo {
-    width: 200px;
+    width: 12.5rem; /* 200px / 16px = 12.5rem */
     margin: 0px;
     img {
       width: 100%;
@@ -80,17 +80,16 @@ a:-webkit-any-link {
     }
   }
   &__name {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 20px 0px 0px 0px;
-    color: #2a1666;
+    font-size: 1.125rem; /* 18px / 16px = 1.125rem */
+    margin: 1.25rem 0px 0px 0px; /* 20px / 16px = 1.25rem */
     font-family: "Titillium web", Arial, sans-serif;
-    font-weight: 600;
+    color: #2a1666 !important;
+    font-weight: bold !important;
   }
   &__job {
-    font-size: 16px;
+    font-size: 1rem; /* 16px / 16px = 1rem */
     font-weight: 400;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 1.25rem 0px; /* 20px / 16px = 1.25rem */
     color: #2a1666;
   }
 }
@@ -99,18 +98,18 @@ a:-webkit-any-link {
   display: flex;
   flex-direction: column;
   background-color: white;
-  gap: 2px;
+  gap: 0.125rem; /* 2px / 16px = 0.125rem */
   &__container {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 0px;
-    gap: 5px;
-    height: 25px;
+    gap: 0.3125rem; /* 5px / 16px = 0.3125rem */
+    height: 1.5625rem; /* 25px / 16px = 1.5625rem */
     background-color: white;
     figure {
       margin: 0px;
-      width: 25px;
+      width: 1.5625rem; /* 25px / 16px = 1.5625rem */
       height: 100%;
       img {
         width: 100%;
@@ -120,10 +119,10 @@ a:-webkit-any-link {
     }
     p {
       display: flex;
-      line-height: 25px;
+      line-height: 1.5625rem; /* 25px / 16px = 1.5625rem */
       align-items: center;
       margin: 0px;
-      font-size: 15px;
+      font-size: 0.9375rem; /* 15px / 16px = 0.9375rem */
       font-weight: 400;
       color: #090909;
       text-decoration: none !important;
@@ -131,19 +130,19 @@ a:-webkit-any-link {
     }
     a {
       text-decoration: none !important;
-      line-height: 25px !important;
+      line-height: 1.5625rem !important; /* 25px / 16px = 1.5625rem */
       text-decoration-color: white !important;
     }
     &--linkCompany {
       color: #2a1666 !important;
       font-weight: bold !important;
       font-family: Arial, sans-serif !important;
-      font-size: 16px !important;
+      font-size: 1rem !important; /* 16px / 16px = 1rem */
     }
   }
   &__number {
     margin: 0px;
-    font-size: 14px;
+    font-size: 0.875rem; /* 14px / 16px = 0.875rem */
     font-weight: 400;
     text-decoration: none !important;
     font-family: Arial, sans-serif;
@@ -182,66 +181,79 @@ a:-webkit-any-link {
   display: flex;
   flex-direction: row;
   background-color: white;
+  height: 3.5rem;
+
+  tbody {
+    width: 100%;
+    height: 3.5rem;
+  }
+
   &__container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    &--instagram {
-      height: 70px;
-      figure {
-        width: 100px;
-        height: 63px;
-        margin-top: 10px;
-        img {
-          width: 100%;
-          object-fit: contain;
-        }
-      }
-    }
-    &--facebook {
-      height: 70px;
-      figure {
-        width: 90px;
-        height: 61px;
-        margin-top: 10px;
-        img {
-          width: 100%;
-          object-fit: contain;
-        }
-      }
-    }
+
+    &--instagram,
+    &--facebook,
     &--linkedin {
-      height: 70px;
+      height: 2.5rem; /* 70px / 16px = 4.375rem */
+
       figure {
-        width: 80px;
-        height: 62px;
-        margin-top: 10px;
+        margin-top: 0.625rem; /* 10px / 16px = 0.625rem */
+        margin-bottom: 0rem;
+        height: 2.5rem; /* 50px / 16px = 3.125rem */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         img {
-          width: 100%;
+          width: auto;
+          height: auto;
+          max-width: 100%;
+          max-height: 100%;
           object-fit: contain;
         }
       }
     }
+
+    &--instagram {
+      figure {
+        width: 6.25rem; /* 100px / 16px = 6.25rem */
+      }
+    }
+
+    &--facebook {
+      figure {
+        width: 5.625rem; /* 90px / 16px = 5.625rem */
+      }
+    }
+
+    &--linkedin {
+      figure {
+        width: 5rem; /* 80px / 16px = 5rem */
+      }
+    }
+
     a {
-      height: 35px;
+      height: 2.1875rem; /* 35px / 16px = 2.1875rem */
     }
   }
 
   &__space {
-    width: 150px;
+    width: 9.375rem; /* 150px / 16px = 9.375rem */
   }
 }
 
 .witheSpace {
-  width: 30px;
-  height: 15px;
-  margin: 20px 20px;
+  width: 1.875rem; /* 30px / 16px = 1.875rem */
+  height: 0.9375rem; /* 15px / 16px = 0.9375rem */
+  margin: 1.25rem 1.25rem; /* 20px / 16px = 1.25rem */
   background-color: white;
 }
 
 .witheSpace2 {
-  width: 15px;
-  height: 15px;
+  width: 0.9375rem; /* 15px / 16px = 0.9375rem */
+  height: 0.9375rem; /* 15px / 16px = 0.9375rem */
   margin: 0px;
   background-color: white;
   img {
@@ -251,8 +263,8 @@ a:-webkit-any-link {
 }
 
 .witheSpace3 {
-  width: 15px;
-  height: 15px;
+  width: 0.9375rem; /* 15px / 16px = 0.9375rem */
+  height: 0.9375rem; /* 15px / 16px = 0.9375rem */
   margin: 0px;
   background-color: white;
 }
@@ -261,26 +273,26 @@ a:-webkit-any-link {
   width: 100%;
   text-align: justify;
   margin: 0px;
-  font-size: 8px;
+  font-size: 0.5rem; /* 8px / 16px = 0.5rem */
   font-family: Arial, sans-serif;
   opacity: 0.7;
 
   &__title {
-    font-size: 12px;
+    font-size: 0.75rem; /* 12px / 16px = 0.75rem */
     font-weight: bold;
-    margin: 20px 0px 0px 0px;
+    margin: 1.25rem 0px 0px 0px; /* 20px / 16px = 1.25rem */
     color: #2a1666;
   }
 }
 
 .witheSpaceIcons {
-  width: 4px;
-  height: 5px;
+  width: 0.25rem; /* 4px / 16px = 0.25rem */
+  height: 0.3125rem; /* 5px / 16px = 0.3125rem */
   background-color: white;
 }
 
 .witheSpaceIcons2 {
-  width: 25px;
-  height: 4px;
+  width: 1.5625rem; /* 25px / 16px = 1.5625rem */
+  height: 0.25rem; /* 4px / 16px = 0.25rem */
   background-color: white;
 }

@@ -76,7 +76,7 @@ const TemplateHTML = ({ infoHTML }) => {
               <div className="companyInfo__container">
                 <figure>
                   <img
-                    src="https://res.cloudinary.com/dlkvt6uph/image/upload/v1707794386/Firma%20digital%20Alarmar/direccion-alarmar_smp3az.png"
+                    src="https://res.cloudinary.com/dlkvt6uph/image/upload/v1709336943/Firma%20digital%20Alarmar/direccion_dgxxyv.png"
                     alt="address"
                   />
                 </figure>
@@ -87,7 +87,7 @@ const TemplateHTML = ({ infoHTML }) => {
               <div className="companyInfo__container">
                 <figure>
                   <img
-                    src="https://res.cloudinary.com/dlkvt6uph/image/upload/v1707794386/Firma%20digital%20Alarmar/telefono-alarmar_pz3qkr.png"
+                    src="https://res.cloudinary.com/dlkvt6uph/image/upload/v1709336943/Firma%20digital%20Alarmar/telefono_w0djya.png"
                     alt="phone"
                   />
                 </figure>
@@ -100,7 +100,7 @@ const TemplateHTML = ({ infoHTML }) => {
               <div className="companyInfo__container">
                 <figure>
                   <img
-                    src="https://res.cloudinary.com/dlkvt6uph/image/upload/v1707794386/Firma%20digital%20Alarmar/ubicacion-alarmar_o6y9jh.png"
+                    src="https://res.cloudinary.com/dlkvt6uph/image/upload/v1709336943/Firma%20digital%20Alarmar/ubicacion_tkeef5.png"
                     alt="ubication"
                   />
                 </figure>
@@ -113,7 +113,7 @@ const TemplateHTML = ({ infoHTML }) => {
               <div className="companyInfo__container">
                 <figure>
                   <img
-                    src="https://res.cloudinary.com/dlkvt6uph/image/upload/v1707794386/Firma%20digital%20Alarmar/web-alarmar_ttgmxb.png"
+                    src="https://res.cloudinary.com/dlkvt6uph/image/upload/v1709336943/Firma%20digital%20Alarmar/web_zkaql6.png"
                     alt="web"
                   />
                 </figure>
@@ -190,16 +190,7 @@ const TemplateHTML = ({ infoHTML }) => {
         Estatutaria 1581 de 2012 y Decreto 1377 de 2013), el titular de los
         datos presta su consentimiento y/o autorización para que la información
         proporcionada voluntariamente pase a formar parte de una base de datos
-        gestionada por nuestra empresa. Esta base de datos tiene como
-        finalidades principales la gestión administrativa de la entidad y la
-        realización de actividades comerciales, incluyendo el envío de
-        comunicaciones sobre nuestros productos y servicios. Le recordamos que
-        usted tiene derecho a ejercer los derechos de acceso, corrección,
-        supresión, revocación o reclamo por infracción sobre sus datos. Para
-        ello, puede enviar un escrito a la dirección de correo electrónico
-        protecciondatos@empresa.com, indicando en el asunto el derecho que desea
-        ejercitar, o mediante correo ordinario remitido a nuestra dirección
-        física.
+        gestionada por nuestra empresa.
       </p>
     </div>
   );
